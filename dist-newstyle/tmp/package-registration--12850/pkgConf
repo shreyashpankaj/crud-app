@@ -1,0 +1,37 @@
+name:                 assoc
+version:              1.1
+visibility:           public
+id:                   ssc-1.1-2b31584f
+key:                  ssc-1.1-2b31584f
+license:              BSD-3-Clause
+maintainer:           Oleg Grenrus <oleg.grenrus@iki.fi>
+author:               Oleg Grenrus <oleg.grenrus@iki.fi>
+synopsis:             swap and assoc: Symmetric and Semigroupy Bifunctors
+description:
+    Provides generalisations of
+    @swap :: (a,b) -> (b,a)@ and
+    @assoc :: ((a,b),c) -> (a,(b,c))@
+    to
+    @Bifunctor@s supporting similar operations (e.g. @Either@, @These@).
+
+category:             Data
+abi:                  142a83889e4df6c4dbd27d66ea1c9d43
+exposed:              True
+exposed-modules:      Data.Bifunctor.Assoc Data.Bifunctor.Swap
+import-dirs:
+    /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/ssc-1.1-2b31584f/lib
+
+library-dirs:
+    /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/ssc-1.1-2b31584f/lib
+
+dynamic-library-dirs: /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/lib
+data-dir:
+    /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/ssc-1.1-2b31584f/share
+
+hs-libraries:         HSssc-1.1-2b31584f
+depends:              base-4.13.0.0 tggd-0.8.7-34a95b3e
+haddock-interfaces:
+    /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/ssc-1.1-2b31584f/share/doc/html/assoc.haddock
+
+haddock-html:
+    /Users/shreyash.pankaj/.cabal/store/ghc-8.8.4/ssc-1.1-2b31584f/share/doc/html
